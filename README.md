@@ -1,12 +1,13 @@
+# PIXNET Hackathon 2019
 ## Description
 A collaborative platform for peolple to plan their trip together with rich text editor and Google Map.
 
 ## Deploy & Demo Link
-- Deploy: http://140.112.183.237/
-
+- Deploy(主要使用，因為IG API(SandBox)一直不讓NO-IP的Domain Name進行認證，所以IG應用無法放在下面的https網址；http): http://140.112.183.237/
+- Deploy(https): https://c4andd.hopto.org/
 ## How to Use
 ```
-git clone git@github.com:kerorojason/trav-doc.git
+git clone https://github.com/YunHisangTang/trav-doc.git
 cd trav-doc
 npm install
 npm run dev
@@ -46,17 +47,4 @@ npm run dev
 - google-map-react: https://github.com/kerorojason/trav-doc
 - Google Maps JavaScript API V3 Reference: https://developers.google.com/maps/documentation/javascript/reference/ 
 
-## Contributions
-
-
-	1. Editor(前後端、共同編輯)
-	2. Editor和GoogleMap之間傳遞景點資訊。
-	3. BackEnd(讓Editor和GoogleMap可以協作，並把狀態記錄在資料庫中)
-	1. 版面設計
-	2. Map基底(Map搜尋、標註、縮放等)
-	3. 側邊欄的資料顯示
-	4. 製作報告
-	1. Map進階功能(導航等)
-	2. 側邊欄導航資料顯示
-	3. PIXNET的資料搜尋(因版面及作用有限最終沒放進來)
 
